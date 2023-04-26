@@ -1,0 +1,16 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 0, 0],
+			"translation": [0.5, 9, 2.5],
+			"scale": [0, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 0, 0],
+			"translation": [0.5, 9, 2.5],
+			"scale": [0, 0, 0]
+		}
+	}
+}

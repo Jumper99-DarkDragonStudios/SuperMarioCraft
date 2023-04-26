@@ -1,0 +1,167 @@
+{
+	"texture": "textures/entity/llama/ostro.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -17, 6]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -19, -2],
+			"submodels": [
+				{
+					"id": "body_rotation",
+					"invertAxis": "xy",
+					"translate": [0, 19, 2],
+					"rotate": [-90, 0, 0],
+					"boxes": [
+						{"coordinates": [-5, -8, -8, 10, 5, 10], "textureOffset": [0, 26]},
+						{"coordinates": [-3, -9, -8, 0, 5, 10], "textureOffset": [0, 26]},
+						{"coordinates": [-1, -10, -8, 0, 5, 10], "textureOffset": [0, 26]},
+						{"coordinates": [1, -10, -8, 0, 5, 10], "textureOffset": [0, 26]},
+						{"coordinates": [3, -9, -8, 0, 5, 10], "textureOffset": [0, 26]},
+						{"coordinates": [5.5, -3, -5, 1, 8, 7], "textureOffset": [37, 19]}
+					],
+					"submodels": [
+						{
+							"id": "body_sub_1",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"mirrorTexture": "u",
+							"boxes": [
+								{"coordinates": [-6.5, -3, -5, 1, 8, 7], "textureOffset": [37, 19]}
+							]
+						},
+						{
+							"id": "body1",
+							"invertAxis": "xy",
+							"translate": [0, 1, -2],
+							"rotate": [15, 0, 0],
+							"boxes": [
+								{"coordinates": [-6, -7, -5, 12, 16, 10], "textureOffset": [0, 0]}
+							]
+						},
+						{
+							"id": "leg_r",
+							"invertAxis": "xy",
+							"translate": [3, 1, -7],
+							"rotate": [90, 0, 0],
+							"submodels": [
+								{
+									"id": "body_sub_4",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"mirrorTexture": "u",
+									"boxes": [
+										{"coordinates": [-1.5, -12, -1.5, 3, 13, 3], "textureOffset": [32, 48]}
+									]
+								}
+							]
+						},
+						{
+							"id": "leg_l",
+							"invertAxis": "xy",
+							"translate": [-3, 1, -7],
+							"rotate": [90, 0, 0],
+							"boxes": [
+								{"coordinates": [-1.5, -12, -1.5, 3, 13, 3], "textureOffset": [32, 48]}
+							]
+						},
+						{
+							"id": "head1",
+							"invertAxis": "xy",
+							"translate": [0, 9, -1],
+							"rotate": [90, 0, 0],
+							"boxes": [
+								{"coordinates": [-2, -3, -2, 4, 13, 4], "textureOffset": [0, 41]},
+								{"coordinates": [-3, 10, -4, 6, 7, 7], "textureOffset": [33, 34]},
+								{"coordinates": [0, 15, 1, 0, 2, 5], "textureOffset": [0, 0]},
+								{"coordinates": [-1.5, 8, -5, 3, 5, 2], "textureOffset": [0, 26]}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"body_rotation.rx": "0",
+					"this:body_rotation:head1.rx": "head.rx+4.7",
+					"this:body_rotation:leg_l.rx": "2.5*leg1.rx+4.7",
+					"this:body_rotation:leg_l.ry": "leg1.ry",
+					"this:body_rotation:leg_l.rz": "leg1.rz",
+					"this:body_rotation:leg_r.rx": "2.5*leg2.rx+4.7",
+					"this:body_rotation:leg_r.ry": "leg2.ry",
+					"this:body_rotation:leg_r.rz": "leg2.rz",
+					"this.tz": "if(limb_speed > 0.1, 2*(sin(time*0.4)), -2)"
+				}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-3.5, -14, -6]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [3.5, -14, -6]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [-3.5, -14, 5]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [3.5, -14, 5]
+		},
+		{
+			"part": "chest_left",
+			"id": "chest_left",
+			"invertAxis": "xy",
+			"translate": [8.5, -21, -3],
+			"submodels": [
+				{
+					"id": "chest_left_rotation",
+					"invertAxis": "xy",
+					"translate": [-7, 17, -14.5],
+					"rotate": [0, -90, 0]
+				}
+			],
+			"animations": [
+				{
+					"chest_left_rotation.ry": "0"
+				}
+			]
+		},
+		{
+			"part": "chest_right",
+			"id": "chest_right",
+			"invertAxis": "xy",
+			"translate": [-10.5, -21, 2],
+			"submodels": [
+				{
+					"id": "chest_right_rotation",
+					"invertAxis": "xy",
+					"translate": [7, 17, -0.5],
+					"rotate": [0, -90, 0]
+				}
+			],
+			"animations": [
+				{
+					"chest_right_rotation.ry": "0"
+				}
+			]
+		}
+	]
+}

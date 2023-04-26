@@ -1,0 +1,14 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "block/pumpkin_top",
+        "front": "block/jack_o_lantern",
+        "side": "block/pumpkin_side"
+    }, "display": {
+	"gui": {
+			"rotation": [0, 180, 0],
+			"scale": [1, 1, 1]
+		}
+	
+} 
+}

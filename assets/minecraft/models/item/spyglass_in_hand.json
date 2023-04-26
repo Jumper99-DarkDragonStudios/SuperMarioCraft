@@ -1,0 +1,69 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "item/spyglass_model2",
+		"spyglass": "item/spyglass_model"
+	},
+	"elements": [
+		{
+			"from": [4.5, 4.5, 5.5],
+			"to": [11.5, 11.5, 10.5],
+			"faces": {
+				"north": {"uv": [9, 5, 16, 12], "texture": "#2"},
+				"east": {"uv": [16, 2, 11, 9], "texture": "#spyglass"},
+				"south": {"uv": [9, 9, 16, 16], "texture": "#spyglass"},
+				"west": {"uv": [11, 2, 16, 9], "texture": "#spyglass"},
+				"up": {"uv": [9, 0, 16, 5], "texture": "#2"}
+			}
+		},
+		{
+			"from": [5.5, 11.5, 6.5],
+			"to": [10.5, 12.5, 9.5],
+			"faces": {
+				"north": {"uv": [11, 14, 16, 15], "texture": "#2"},
+				"east": {"uv": [13, 15, 16, 16], "texture": "#2"},
+				"south": {"uv": [11, 14, 16, 15], "texture": "#2"},
+				"west": {"uv": [13, 15, 16, 16], "texture": "#2"},
+				"up": {"uv": [0, 13, 5, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [4, 2.5, 5],
+			"to": [12, 4.5, 11],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 2], "texture": "#spyglass"},
+				"east": {"uv": [8, 0, 14, 2], "texture": "#spyglass"},
+				"south": {"uv": [0, 0, 8, 2], "texture": "#spyglass"},
+				"west": {"uv": [8, 0, 14, 2], "texture": "#spyglass"},
+				"up": {"uv": [0, 0, 8, 6], "texture": "#2"},
+				"down": {"uv": [0, 6, 8, 12], "texture": "#2"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-1.25, 0, -1]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-1.25, 0, -1]
+		},
+		"ground": {
+			"rotation": [90, 0, 0]
+		},
+		"gui": {
+			"rotation": [90, 0, 90],
+			"translation": [-0.75, 0, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"head": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 0, -13.5],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"translation": [0, 0, -1.5],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	}
+}

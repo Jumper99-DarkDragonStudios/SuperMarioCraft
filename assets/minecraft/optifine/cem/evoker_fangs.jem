@@ -1,0 +1,29 @@
+{
+	"texture": "kamek_magic",
+	"textureSize": [32, 32],
+	"models": [
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-1, 4, -1, 2, 9, 2], "textureOffset": [0, 7], "sizeAdd": 2},
+				{"coordinates": [-0.5, 17, -0.5, 1, 1, 1], "textureOffset": [6, 7], "sizeAdd": 2},
+				{"coordinates": [-1.5, 2, -1.5, 3, 4, 3], "textureOffset": [0, 0], "sizeAdd": 2}
+			]
+		},
+		{
+			"part": "upper_jaw",
+			"id": "upper_jaw",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "lower_jaw",
+			"id": "lower_jaw",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}

@@ -1,0 +1,427 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"submodels": [
+				{
+					"id": "adult2",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"submodels": [
+						{
+							"id": "cobrat",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"rotate": [0, -180, 0],
+							"boxes": [
+								{"coordinates": [-3.5, 0, -5, 7, 7, 8], "textureOffset": [24, 12]}
+							],
+							"submodels": [
+								{
+									"id": "bone6",
+									"invertAxis": "xy",
+									"translate": [0, 0, 3],
+									"rotate": [-45, 0, 0],
+									"boxes": [
+										{"coordinates": [-3.5, 0, 0, 7, 7, 7], "textureOffset": [28, 43], "sizeAdd": 0.001}
+									],
+									"submodels": [
+										{
+											"id": "bone7",
+											"invertAxis": "xy",
+											"translate": [0, 0, 7],
+											"rotate": [-45, 0, 0],
+											"boxes": [
+												{"coordinates": [-3.5, 0, 0, 7, 7, 6], "textureOffset": [46, 0], "sizeAdd": 0.002}
+											],
+											"submodels": [
+												{
+													"id": "bone8",
+													"invertAxis": "xy",
+													"translate": [0, 0, 6],
+													"rotate": [-32.5, 0, 0],
+													"boxes": [
+														{"coordinates": [-3, 0, 0, 6, 6, 6], "textureOffset": [48, 21], "sizeAdd": 0.003}
+													],
+													"submodels": [
+														{
+															"id": "bone9",
+															"invertAxis": "xy",
+															"translate": [0, 0, 6],
+															"rotate": [-22.5, 0, 0],
+															"boxes": [
+																{"coordinates": [-2.5, 0, 0, 5, 6, 6], "textureOffset": [0, 51], "sizeAdd": 0.004}
+															],
+															"submodels": [
+																{
+																	"id": "bone10",
+																	"invertAxis": "xy",
+																	"translate": [0, 6, 6],
+																	"rotate": [35, 0, 0],
+																	"boxes": [
+																		{"coordinates": [-2.5, -6, 0, 5, 6, 6], "textureOffset": [0, 51], "sizeAdd": 0.003}
+																	],
+																	"submodels": [
+																		{
+																			"id": "head3",
+																			"invertAxis": "xy",
+																			"translate": [0, -3, 4],
+																			"rotate": [20, 0, 0],
+																			"boxes": [
+																				{"coordinates": [-4, -4, 0, 8, 8, 6], "textureOffset": [0, 37]},
+																				{"coordinates": [0.5, -5, 4, 4, 6, 6], "textureOffset": [50, 51]}
+																			],
+																			"submodels": [
+																				{
+																					"invertAxis": "xy",
+																					"mirrorTexture": "u",
+																					"boxes": [
+																						{"coordinates": [-4.5, -5, 4, 4, 6, 6], "textureOffset": [50, 51]}
+																					]
+																				},
+																				{
+																					"id": "bone11",
+																					"invertAxis": "xy",
+																					"translate": [0, -4, 4],
+																					"rotate": [12.5, 0, 0],
+																					"boxes": [
+																						{"coordinates": [-3.5, -5, -4, 7, 7, 6], "textureOffset": [102, 0]},
+																						{"coordinates": [-2.5, -7, -4, 5, 2, 5], "textureOffset": [46, 13]}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "bone3",
+									"invertAxis": "xy",
+									"translate": [0, 0, -5],
+									"rotate": [32.5, 0, 0],
+									"boxes": [
+										{"coordinates": [-3, 0, -4, 6, 6, 4], "textureOffset": [22, 57]}
+									],
+									"submodels": [
+										{
+											"id": "bone4",
+											"invertAxis": "xy",
+											"translate": [0, 0, -4],
+											"rotate": [32.5, 0, 0],
+											"boxes": [
+												{"coordinates": [-2, 0, -4, 4, 4, 4], "textureOffset": [66, 13]}
+											],
+											"submodels": [
+												{
+													"id": "bone5",
+													"invertAxis": "xy",
+													"translate": [0, 4, -4],
+													"rotate": [-12.5, 0, 0],
+													"boxes": [
+														{"coordinates": [-1, -4, -2, 2, 4, 2], "textureOffset": [0, 0]}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "koopa",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"submodels": [
+								{
+									"id": "leg_r",
+									"invertAxis": "xy",
+									"translate": [4, 8, 0],
+									"boxes": [
+										{"coordinates": [-1, -5, -1.5, 2, 6, 3], "textureOffset": [40, 69]},
+										{"coordinates": [-1.5, -8, -4.5, 3, 3, 6], "textureOffset": [0, 63]}
+									]
+								},
+								{
+									"id": "leg_l",
+									"invertAxis": "xy",
+									"translate": [-4, 8, 0],
+									"boxes": [
+										{"coordinates": [-1, -5, -1.5, 2, 6, 3], "textureOffset": [30, 69]},
+										{"coordinates": [-1.5, -8, -4.5, 3, 3, 6], "textureOffset": [0, 63]}
+									]
+								},
+								{
+									"id": "body4",
+									"invertAxis": "xy",
+									"translate": [0, 9, 0],
+									"rotate": [-22.5, 0, 0],
+									"boxes": [
+										{"coordinates": [-4, -2.77164, -4.14805, 8, 12, 8], "textureOffset": [0, 0]},
+										{"coordinates": [-3, -1.77164, 3.85195, 6, 10, 1], "textureOffset": [54, 63]}
+									],
+									"submodels": [
+										{
+											"id": "arm_l",
+											"invertAxis": "xy",
+											"translate": [-4, 7, 0],
+											"rotate": [-85, 0, 0],
+											"boxes": [
+												{"coordinates": [-1.9, -2, -3, 2, 3, 4], "textureOffset": [68, 66]}
+											],
+											"submodels": [
+												{
+													"id": "bone",
+													"invertAxis": "xy",
+													"translate": [0, 0, -3],
+													"rotate": [45, 0, 0],
+													"boxes": [
+														{"coordinates": [-2, -1.5, -2, 2, 3, 3], "textureOffset": [66, 0]},
+														{"coordinates": [-2, -2, -6, 2, 4, 4], "textureOffset": [68, 29]}
+													]
+												}
+											]
+										},
+										{
+											"id": "arm_r",
+											"invertAxis": "xy",
+											"translate": [4, 7, 0],
+											"rotate": [-85, 0, 0],
+											"boxes": [
+												{"coordinates": [-0.1, -2, -3, 2, 3, 4], "textureOffset": [68, 59]}
+											],
+											"submodels": [
+												{
+													"id": "bone2",
+													"invertAxis": "xy",
+													"translate": [0, 0, -3],
+													"rotate": [45, 0, 0],
+													"boxes": [
+														{"coordinates": [0, -1.5, -2, 2, 3, 3], "textureOffset": [12, 63]},
+														{"coordinates": [0, -2, -6, 2, 4, 4], "textureOffset": [18, 67]}
+													]
+												}
+											]
+										},
+										{
+											"id": "head2",
+											"invertAxis": "xy",
+											"translate": [0, 9, -2],
+											"rotate": [22.5, 0, 0],
+											"boxes": [
+												{"coordinates": [-4, 2, -4, 8, 8, 8], "textureOffset": [0, 20]},
+												{"coordinates": [-2, 0, -1.5, 4, 2, 3], "textureOffset": [64, 50]},
+												{"coordinates": [-3.5, 3, -7.5, 7, 7, 5], "textureOffset": [50, 38]},
+												{"coordinates": [-1.5, 2, -7.5, 3, 1, 1], "textureOffset": [0, 6]},
+												{"coordinates": [-3, 2, -4.5, 6, 1, 1], "textureOffset": [32, 8]},
+												{"coordinates": [-3.5, 9, -2.5, 7, 4, 4], "textureOffset": [24, 0]},
+												{"coordinates": [-4, 2, -3.5, 8, 7, 7], "textureOffset": [25, 29]},
+												{"coordinates": [-6, 9, 1, 3, 3, 2], "textureOffset": [55, 33]}
+											],
+											"submodels": [
+												{
+													"id": "head_sub_1",
+													"invertAxis": "xy",
+													"mirrorTexture": "u",
+													"translate": [0, -18, 2],
+													"submodels": [
+														{
+															"id": "body_sub_11",
+															"invertAxis": "xy",
+															"mirrorTexture": "u",
+															"translate": [0, 0, 0],
+															"submodels": [
+																{
+																	"id": "body_sub_12",
+																	"invertAxis": "xy",
+																	"mirrorTexture": "u",
+																	"translate": [0, 0, 0],
+																	"boxes": [
+																		{"coordinates": [3, 27, -1, 3, 3, 2], "textureOffset": [55, 33]}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"id": "tail",
+											"invertAxis": "xy",
+											"translate": [0, 2, 2],
+											"rotate": [50, 0, 0],
+											"boxes": [
+												{"coordinates": [-1, -3.66103, 1.38525, 2, 2, 4], "textureOffset": [16, 51]},
+												{"coordinates": [-1, -3.66103, 0.38525, 2, 2, 8], "textureOffset": [34, 59]}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"this:arm_r.rx": "left_leg.rx*2 + (sin(time / 23) / 18)+torad(85)",
+					"this:arm_r.rz": "right_arm.rz",
+					"this:arm_l.rx": "right_leg.rx*2 - (sin(time / 23) / 18)+torad(85)",
+					"this:arm_l.rz": "left_arm.rz",
+					"this:leg_r.rx": "right_leg.rx",
+					"this:leg_l.rx": "left_leg.rx",
+					"this:head2.rx": "head.rx-torad(22.5)",
+					"this:head2.ry": "head.ry/3*2",
+					"this:body4.ry": "head.ry/3",
+					"this.ty": "-16",
+					"body.ty": "40",
+					"this:cobrat:bone6.rx": "(sin(age/4+0)/6)*limb_speed-torad(-45)",
+					"this:cobrat:bone7.rx": "(sin(age/4+1)/6)*limb_speed-torad(-45)",
+					"this:cobrat:bone8.rx": "(sin(age/4+2)/6)*limb_speed-torad(-32.5)",
+					"this:cobrat:bone9.rx": "(sin(age/4+3)/6)*limb_speed-torad(-22.5)",
+					"this:cobrat:bone10.rx": "-(sin(age/4+4)/6)*limb_speed-torad(35)",
+					"this:cobrat:bone3.rx": "-(sin(age/4+0)/6)*limb_speed-torad(32.5)",
+					"this:cobrat:bone4.rx": "-(sin(age/4+1)/6)*limb_speed-torad(32.5)",
+					"this:cobrat:bone5.rx": "(sin(age/4+2)/6)*limb_speed-torad(-12.5)",
+					"this:head3.rx": "-head.rx-torad(20)-(sin(age/4+5)/6)*limb_speed",
+					"this:head3.rz": "-head.ry"
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"submodels": [
+				{
+					"id": "a",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0]
+				}
+			],
+			"animations": [
+				{
+					"head.ty": "3",
+					"head.tz": "-6.5"
+				}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"submodels": [
+				{
+					"id": "b",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0]
+				}
+			],
+			"animations": [
+				{
+					"left_leg.ty": "1.1.1"
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"submodels": [
+				{
+					"id": "c",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0]
+				}
+			],
+			"animations": [
+				{
+					"right_leg.ty": "1.1.1"
+				}
+			]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"submodels": [
+				{
+					"id": "a",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0]
+				}
+			],
+			"animations": [
+				{
+					"headwear.ty": "1.1.1"
+				}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [-1, 0, 0],
+			"rotate": [100, -180, -180],
+			"submodels": [
+				{
+					"id": "left_arm_sub_0",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0]
+				}
+			],
+			"animations": [
+				{
+					"left_arm.rx": "right_leg.rx - (sin(time / 23) / 18)",
+					"left_arm.ty": "6",
+					"left_arm.tz": "-4",
+					"left_arm.tx": "2"
+				}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-1, 0, 0],
+			"rotate": [-80, 0, 0],
+			"submodels": [
+				{
+					"id": "right_arm_sub_0",
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"translate": [0, 0, 0]
+				}
+			],
+			"animations": [
+				{
+					"right_arm.rx": "left_leg.rx + (sin(time / 23) / 18)",
+					"right_arm.ty": "6",
+					"right_arm.tz": "-4",
+					"right_arm.tx": "-2"
+				}
+			]
+		}
+	]
+}

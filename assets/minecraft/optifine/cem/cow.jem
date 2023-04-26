@@ -1,0 +1,107 @@
+{
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-4, -11, -8]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [4, -11, -8]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -3, -20],
+			"rotate": [90, 0, 0],
+			"submodels": [
+				{
+					"id": "head1",
+					"invertAxis": "xy",
+					"translate": [0, 4, -6],
+					"boxes": [
+						{"coordinates": [-4, 0, -4, 8, 10, 8], "textureOffset": [0, 0]},
+						{"coordinates": [-3, 10, -3, 6, 1, 7], "textureOffset": [38, 0]},
+						{"coordinates": [-2, 11, -2, 4, 1, 7], "textureOffset": [42, 9]}
+					],
+					"submodels": [
+						{
+							"id": "arml",
+							"invertAxis": "xy",
+							"translate": [-4, 6, 0.5],
+							"boxes": [
+								{"coordinates": [-1, -4, -1.5, 1, 5, 3], "textureOffset": [56, 56]}
+							]
+						},
+						{
+							"id": "armr",
+							"invertAxis": "xy",
+							"translate": [4, 6, 0.5],
+							"boxes": [
+								{"coordinates": [0, -4, -1.5, 1, 5, 3], "textureOffset": [56, 56]}
+							]
+						}
+					]
+				},
+				{
+					"id": "leg_r",
+					"invertAxis": "xy",
+					"translate": [2, 4, -5],
+					"boxes": [
+						{"coordinates": [-1, -2, -3, 3, 2, 4], "textureOffset": [0, 58]}
+					]
+				},
+				{
+					"id": "leg_l",
+					"invertAxis": "xy",
+					"translate": [-2, 4, -5],
+					"boxes": [
+						{"coordinates": [-2, -2, -3, 3, 2, 4], "textureOffset": [0, 58]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"this:head1:arml.rx": "leg1.rx",
+					"this:head1:arml.ry": "leg1.ry",
+					"this:head1:arml.rz": "leg1.rz",
+					"this:head1:armr.rx": "leg2.rx",
+					"this:head1:armr.ry": "leg2.ry",
+					"this:head1:armr.rz": "leg2.rz",
+					"this:leg_r.rx": "leg1.rx",
+					"this:leg_r.ry": "leg1.ry",
+					"this:leg_r.rz": "leg1.rz",
+					"this:leg_l.rx": "leg2.rx",
+					"this:leg_l.ry": "leg2.ry",
+					"this:leg_l.rz": "leg2.rz",
+					"this:head1.rx": "head.rx/5",
+					"this:head1.ry": "head.ry/3",
+					"this:head1.rz": "head.rz/3"
+				}
+			]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [5, -10, 5]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [4, 0, 0]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [-5, -10, 5]
+		}
+	]
+}

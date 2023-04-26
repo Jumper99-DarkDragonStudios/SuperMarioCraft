@@ -1,0 +1,30 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/mangrove_propagule",
+		"sapling": "block/mangrove_propagule"
+	},
+	"elements": [
+		{
+			"name": "leaves",
+			"from": [1, 0, 8],
+			"to": [15, 16, 8],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 0, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#sapling"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#sapling"}
+			}
+		},
+		{
+			"name": "leaves",
+			"from": [8, 0, 1],
+			"to": [8, 16, 15],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 0, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#sapling"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#sapling"}
+			}
+		}
+	]
+}

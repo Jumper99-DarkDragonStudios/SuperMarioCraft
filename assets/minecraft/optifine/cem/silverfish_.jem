@@ -1,0 +1,81 @@
+{
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "body1",
+			"invertAxis": "xy",
+			
+"translate": [0, -2, 0],
+			"boxes": [
+				{"coordinates": [-4, 1, -4, 8, 2, 12], "textureOffset": [17, 2]},
+				{"coordinates": [-5, 3, -5, 2, 3, 1], "textureOffset": [0, 0]},
+				{"coordinates": [-4, 5, -6, 8, 2, 14], "textureOffset": [2, 16]},
+				{"coordinates": [-3, 7, -4, 6, 1, 10], "textureOffset": [1, 0]},
+				{"coordinates": [-5, 3, -4, 10, 2, 13], "textureOffset": [1, 32]},
+				{"coordinates": [3, 3, -5, 2, 3, 1], "textureOffset": [0, 0]},
+				{"coordinates": [3, 0, -3, 2, 3, 2], "textureOffset": [0, 59]},
+				{"coordinates": [3, 0, -4, 2, 1, 1], "textureOffset": [16, 62]},
+				{"coordinates": [-5, 0, -4, 2, 1, 1], "textureOffset": [16, 62]},
+				{"coordinates": [-5, 0, -3, 2, 3, 2], "textureOffset": [0, 59]},
+				{"coordinates": [3, 0, 5, 2, 3, 2], "textureOffset": [0, 59]},
+				{"coordinates": [-5, 0, 5, 2, 3, 2], "textureOffset": [0, 59]},
+				{"coordinates": [-5, 0, 4, 2, 1, 1], "textureOffset": [16, 62]},
+				{"coordinates": [3, 0, 4, 2, 1, 1], "textureOffset": [16, 62]},
+				{"coordinates": [-1, 8, 0, 2, 3, 2], "textureOffset": [56, 45]},
+				{"coordinates": [-4, 7, 0, 2, 2, 2], "textureOffset": [56, 45]},
+				{"coordinates": [-5, 8, 0, 2, 2, 2], "textureOffset": [56, 45]},
+				{"coordinates": [3, 8, 0, 2, 2, 2], "textureOffset": [56, 45]},
+				{"coordinates": [2, 7, 0, 2, 2, 2], "textureOffset": [56, 45]},
+				{"coordinates": [-1, 8, -6, 2, 2, 2], "textureOffset": [56, 45]},
+				{"coordinates": [-1, 7, -5, 2, 2, 2], "textureOffset": [56, 45]},
+				{"coordinates": [-1, 8, 6, 2, 2, 2], "textureOffset": [56, 45]},
+				{"coordinates": [-1, 7, 5, 2, 2, 2], "textureOffset": [56, 45]}
+			]
+		},
+		{
+			"part": "body2",
+			"invertAxis": "xy",
+			"translate": [0, -12, 0]
+		},
+		{
+			"part": "body3",
+			"invertAxis": "xy",
+			"translate": [0, -12, 0]
+		},
+		{
+			"part": "body4",
+			"invertAxis": "xy",
+			"translate": [0, -12, 0]
+		},
+		{
+			"part": "body5",
+			"invertAxis": "xy",
+			"translate": [0, -12, 0]
+		},
+		{
+			"part": "body6",
+			"invertAxis": "xy",
+			"translate": [0, -12, 0]
+		},
+		{
+			"part": "body7",
+			"invertAxis": "xy",
+			"translate": [0, -12, 0]
+		},
+		{
+			"part": "wing1",
+			"invertAxis": "xy",
+			"translate": [0, -12, 0]
+		},
+		{
+			"part": "wing2",
+			"invertAxis": "xy",
+			"translate": [0, -12, 0]
+		},
+		{
+			"part": "wing3",
+			"invertAxis": "xy",
+			"translate": [0, -12, 0]
+		}
+	]
+}

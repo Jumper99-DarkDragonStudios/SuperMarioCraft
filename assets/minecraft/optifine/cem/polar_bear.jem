@@ -1,0 +1,93 @@
+{
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [-2, 14, -15],
+			"rotate": [90, 0, 0],
+			"boxes": [
+				{"coordinates": [-4, 0, -4, 8, 1, 11], "textureOffset": [46, 0]},
+				{"coordinates": [-5, 1, -4, 10, 7, 13], "textureOffset": [0, 0]},
+				{"coordinates": [-3, 8, -4, 6, 1, 9], "textureOffset": [0, 20]},
+				{"coordinates": [-6, 2, 0, 1, 5, 9], "textureOffset": [0, 34]},
+				{"coordinates": [-6, 4, 9, 1, 4, 1], "textureOffset": [4, 53]},
+				{"coordinates": [-6, 7, 6, 1, 1, 3], "textureOffset": [54, 48]},
+				{"coordinates": [5, 7, 6, 1, 1, 3], "textureOffset": [46, 48]},
+				{"coordinates": [5, 4, 9, 1, 4, 1], "textureOffset": [0, 53]},
+				{"coordinates": [5, 2, 0, 1, 5, 9], "textureOffset": [30, 20]}
+			],
+			"submodels": [
+				{
+					"id": "tail",
+					"invertAxis": "xy",
+					"translate": [0, 6, 9],
+					"boxes": [
+						{"coordinates": [-3, 0, 0, 6, 2, 4], "textureOffset": [42, 34]}
+					]
+				},
+				{
+					"id": "legs",
+					"invertAxis": "xy",
+					"translate": [0, 0.5, 7],
+					"boxes": [
+						{"coordinates": [-4, -0.5, 0, 3, 1, 4], "textureOffset": [32, 48]},
+						{"coordinates": [1, -0.5, 0, 3, 1, 4], "textureOffset": [18, 48]}
+					]
+				},
+				{
+					"id": "head1",
+					"invertAxis": "xy",
+					"translate": [0, 4, -2],
+					"boxes": [
+						{"coordinates": [-3, -3, -9, 6, 6, 7], "textureOffset": [89, 0]},
+						{"coordinates": [-3, -2, -2.01, 6, 6, 5], "textureOffset": [46, 12]},
+						{"coordinates": [-4, 3, -3.01, 8, 2, 1], "textureOffset": [0, 48]},
+						{"coordinates": [-4, 5, -3, 2, 1, 1], "textureOffset": [122, 0]},
+						{"coordinates": [2, 5, -3, 2, 1, 1], "textureOffset": [122, 3]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"this.rx": "if(limb_speed > 0.1, 4.7, 3.1)",
+					"this.tz": "if(limb_speed > 0.1, -15, -6)",
+					"this.ty": "if(limb_speed > 0.1, -14, -16)",
+					"this:head1.rx": "if(limb_speed > 0.1, 0, 1)",
+					"this:legs.rx": "if(limb_speed > 0.1, 0, -1)"
+				}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}

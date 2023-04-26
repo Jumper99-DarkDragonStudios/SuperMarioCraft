@@ -1,0 +1,51 @@
+{
+	"gui_light": "front",
+	"textures": {
+		"1": "block/buletbill2",
+		"2": "block/buletbill3",
+		"3": "block/buletbill4",
+		"4": "block/buletbill5",
+		"particle": "block/buletbill1"
+	
+	
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#3"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-1.25, 0, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-1.75, 0, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_righthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 5, 0],
+            "scale":[ 0.7, 0.7, 0.7 ]
+        },
+ 
+		"gui": {
+			"rotation": [0, 90, 0]
+		}
+	}
+}

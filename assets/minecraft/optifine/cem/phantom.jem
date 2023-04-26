@@ -1,0 +1,84 @@
+{
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, 0, -3],
+			"boxes": [
+				{"coordinates": [-4, 6, -2, 8, 7, 5], "textureOffset": [32, 32]},
+				{"coordinates": [4, 6, -1, 2, 6, 2], "textureOffset": [0, 23]},
+				{"coordinates": [4, 6, -5, 2, 2, 4], "textureOffset": [0, 0]},
+				{"coordinates": [-6, 6, -5, 2, 2, 4], "textureOffset": [0, 0]},
+				{"coordinates": [-6, 6, -1, 2, 6, 2], "textureOffset": [0, 23]},
+				{"coordinates": [-7, -5, -6, 14, 11, 12], "textureOffset": [0, 0]},
+				{"coordinates": [-7, 5, -6, 14, 1, 12], "textureOffset": [0, 51]},
+				{"coordinates": [-6, -4, -7, 12, 9, 12], "textureOffset": [1, 1]},
+				{"coordinates": [-8, -4, -4, 4, 7, 6], "textureOffset": [26, 10]},
+				{"coordinates": [5, -4, -4, 4, 7, 6], "textureOffset": [26, 10]},
+				{"coordinates": [-9, -3, -2, 4, 7, 6], "textureOffset": [26, 10]},
+				{"coordinates": [4, -3, -2, 4, 7, 6], "textureOffset": [26, 10]},
+				{"coordinates": [-4, -3, 1, 4, 7, 6], "textureOffset": [26, 10]},
+				{"coordinates": [0, -4, 2, 4, 7, 6], "textureOffset": [26, 10]}
+			],
+			"submodels": [
+				{
+					"id": "head1",
+					"invertAxis": "xy",
+					"translate": [0, 13, 0],
+					"boxes": [
+						{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [0, 23]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"this:head1.rx": "body.rx"
+				}
+			]
+		},
+		{
+			"part": "left_wing",
+			"id": "left_wing",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "left_wing_tip",
+			"id": "left_wing_tip",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "right_wing",
+			"id": "right_wing",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "right_wing_tip",
+			"id": "right_wing_tip",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "tail",
+			"id": "tail",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "tail2",
+			"id": "tail2",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}

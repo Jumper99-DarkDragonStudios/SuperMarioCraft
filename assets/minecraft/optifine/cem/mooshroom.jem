@@ -1,0 +1,68 @@
+{
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-4, -11, -8]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [4, -11, -8]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -3, -20],
+			"rotate": [90, 0, 0],
+			"submodels": [
+				{
+					"id": "head1",
+					"invertAxis": "xy",
+					"translate": [0, 20, -6],
+					"boxes": [
+						{"coordinates": [1, -7, -2, 3, 2, 4], "textureOffset": [0, 58]},
+						{"coordinates": [-4, -7, -2, 3, 2, 4], "textureOffset": [0, 58]},
+						{"coordinates": [4, -3, -1, 1, 5, 3], "textureOffset": [56, 56]},
+						{"coordinates": [-4, -5, -4, 8, 10, 8], "textureOffset": [0, 0]},
+						{"coordinates": [-3, 5, -3, 6, 1, 7], "textureOffset": [38, 0]},
+						{"coordinates": [-2, 6, -2, 4, 1, 7], "textureOffset": [42, 9]},
+						{"coordinates": [-7, 7.1, -6.5, 14, 0, 14], "textureOffset": [0, 44]},
+						{"coordinates": [-5, -3, -1, 1, 5, 3], "textureOffset": [56, 56]}
+					]
+				}
+			],
+			"animations": [
+				{
+					"this:head1.tx": "0.75*cos(time/4)",
+					"this:head1.ty": "0.75*cos(time/4+1.47)-20",
+					"this:head1.rx": "head.rx/5",
+					"this:head1.ry": "head.ry",
+					"this:head1.rz": "head.rz"
+				}
+			]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [5, -10, 5]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [4, 0, 0]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [-5, -10, 5]
+		}
+	]
+}

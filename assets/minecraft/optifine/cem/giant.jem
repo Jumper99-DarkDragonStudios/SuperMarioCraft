@@ -1,0 +1,55 @@
+{
+	"texture": "bowser.png",
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [1, 0, 0],
+			"rotate": [80, -180, 0],
+			"boxes": [
+				{"coordinates": [0, -10, -2, 4, 12, 4], "textureOffset": [40, 16]}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-1, 0, 0],
+			"rotate": [-80, 0, 0],
+			"boxes": [
+				{"coordinates": [0, -10, -2, 4, 12, 4], "textureOffset": [40, 16]}
+			]
+		},
+		{
+			"part": "body",
+                        "attach": true,
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"boxes": [
+				{"coordinates": [-4, 12, -1, 8, 12, 4], "textureOffset": [16, 16]}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"submodels": [
+				{
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"boxes": [
+						{"coordinates": [4, 5, -1, 2, 4, 2], "textureOffset": [56, 20]}
+					]
+				}
+			],
+			"boxes": [
+				{"coordinates": [-6, 5, -1, 2, 4, 2], "textureOffset": [56, 20]},
+				{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [0, 0]}
+			]
+		}
+	]
+}

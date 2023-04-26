@@ -1,0 +1,76 @@
+[
+    {
+        "section": "Super Mario Craft Credits",
+        "titles": [
+            {
+                "title": "Rights by:",
+                "names": [
+                    "Nintendo",
+                    "You can support for their great content by buying a switch!"
+                ]
+            },
+            {
+                "title": "Created by:",
+                "names": [
+                    "Jumper_99 (Lead texture artist)",
+                    "Coolfsta (Texture artist)"
+                ]
+            },
+            {
+                "title": "Games Featured:",
+                "names": [
+                    "Super Mario Bros 1 2 and 3 (Normal and Allstar)",
+                    "Super Mario World",
+                    "Super Mario 64",
+                    "Super Mario Sunshine",
+                    "New Super Mario Bros",
+                    "Super Mario 3D Land",
+                    "Super Mario 3D World",
+                    "Paper Mario",
+                    "Super Mario Land",
+                    "Mario Galaxy",
+                    "Yoshie's Island",
+                    "Mario Strikers Charged"
+                ]
+            },
+            {
+                "title": "Non-Mario Games Featured:",
+                "names": [
+                    "Zelda Series",
+                    "Metroid Series",
+                    "Kid Icarus Series",
+                    "Kirby Series",
+                    "Sonic Series",
+                    "Super Smash Brothers Series",
+                    "Undertale Series",
+                    "Mega Man Series",
+                    "Shovel Knight Series",
+                    "Halo Series",
+                    "Assasins Creed Series",
+                    "Terraria",
+                    "Minecraft",
+                    "Doom Series",
+                    "Portal / Half-Live Series",
+                    "Pokemon Series",
+                    "Final Fantasy",
+                    "Tetris",
+                    "Kingdom Hearts Series",
+                    "Xenoblade Chronicles"
+                ]
+            },
+            {
+                "title": "Server Support:",
+                "names": [
+                    "Hypixel (Bedwars)",
+                    "Cubecraft (Lucky Wars)"
+                ]
+            },
+            {
+                "title": "Datapack Support:",
+                "names": [
+                    "Mario Power-Ups"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,61 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"0": "fortune_bow",
+		"particle": "fortune_bow"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [3, 0, 0],
+			"scale": [4, 4, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"translation": [3, 0, 0],
+			"scale": [4, 4, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 0, 0],
+			"translation": [-9, 5.5, -100],
+			"scale": [4, 4, 1]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 0, 0],
+			"translation": [-9, 5.5, -100],
+			"scale": [4, 4, 1]
+		},
+		"ground": {
+			"translation": [0, 20, 0],
+			"scale": [4, 4, 1]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 0, 0],
+			"scale": [8, 8, 1]
+		}
+	},
+    "overrides": [
+        {
+            "predicate": {
+                "pulling": 1
+            },
+            "model": "gaster_blaster_2"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.65
+            },
+            "model": "gaster_blaster_2"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.9
+            },
+            "model": "gaster_blaster_2"
+        }
+    ]
+}

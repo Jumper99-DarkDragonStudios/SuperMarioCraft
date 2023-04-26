@@ -1,0 +1,29 @@
+{
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [32, 0]},
+				{"coordinates": [3.5, 2, -2, 1, 4, 3], "textureOffset": [56, 16]},
+				{"coordinates": [-4.5, 2, -2, 1, 4, 3], "textureOffset": [56, 16]},
+				{"coordinates": [3.5, 3, 1, 1, 2, 3], "textureOffset": [0, 0]},
+				{"coordinates": [-4.5, 3, 1, 1, 2, 3], "textureOffset": [0, 0]},
+				{"coordinates": [-4.5, 5, -4, 1, 2, 2], "textureOffset": [24, 0]},
+				{"coordinates": [3.5, 5, -4, 1, 2, 2], "textureOffset": [24, 0]},
+				{"coordinates": [-4, 6, -4.5, 8, 2, 1], "textureOffset": [46, 23]},
+				{"coordinates": [-4, 3, 3.5, 8, 2, 1], "textureOffset": [46, 23]},
+				{"coordinates": [-2, 0, -5, 4, 3, 1], "textureOffset": [54, 26]}
+			]
+		},
+		{
+			"part": "nose",
+			"id": "nose",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}

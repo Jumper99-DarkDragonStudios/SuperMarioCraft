@@ -1,0 +1,15 @@
+{
+	"textureSize": [256, 256],
+	"shadowSize": 0,
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -16, 0],
+			"boxes": [
+				{"coordinates": [-16, 0, -17, 32, 32, 32], "textureOffset": [0, 0]}
+			]
+		}
+	]
+}

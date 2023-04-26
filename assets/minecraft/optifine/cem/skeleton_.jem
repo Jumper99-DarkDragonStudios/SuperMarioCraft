@@ -1,0 +1,22 @@
+{
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-3, 0, -6, 6, 6, 4], "textureOffset": [28, 0]},
+				{"coordinates": [-3, 6, -2, 6, 3, 4], "textureOffset": [44, 9]},
+				{"coordinates": [-4, 0, -2, 8, 6, 6], "textureOffset": [2, 4]}
+			]
+		},
+		{
+			"part": "headwear",
+			"id": "headwear",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}

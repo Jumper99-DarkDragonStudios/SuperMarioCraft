@@ -1,0 +1,89 @@
+{
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -19, -2],
+			"submodels": [
+				{
+					"id": "rotation",
+					"invertAxis": "xy",
+					"translate": [0, 19, 2],
+					"rotate": [-90, 0, 0],
+					"submodels": [
+						{
+							"id": "head1",
+							"invertAxis": "xy",
+							"translate": [0, -3, -2],
+							"boxes": [
+								{"coordinates": [-9, -4, -8, 18, 18, 16], "textureOffset": [52, 52]},
+								{"coordinates": [-14, 5, -13, 28, 0, 26], "textureOffset": [0, 26]}
+							],
+							"submodels": [
+								{
+									"id": "bone",
+									"invertAxis": "xy",
+									"translate": [0, 5, 0],
+									"rotate": [0, 0, 45],
+									"boxes": [
+										{"coordinates": [0, -16, -13, 0, 32, 26], "textureOffset": [0, 26]}
+									]
+								},
+								{
+									"id": "bone2",
+									"invertAxis": "xy",
+									"translate": [0, 5, 0],
+									"rotate": [0, 0, -45],
+									"boxes": [
+										{"coordinates": [0, -16, -13, 0, 32, 26], "textureOffset": [0, 26]}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"rotation.rx": "0",
+					"this:rotation:head1.rx": "head.rx/3",
+					"this:rotation:head1.tx": "0.75*cos(time/4+1.52)",
+					"this:rotation:head1.ty": "0.75*cos(time/4+2.83)+3",
+					"this:rotation:head1.tz": "0.75*cos(time/4-1.24)+3*sin(limb_swing/2)"
+				}
+			]
+		},
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -18, 8]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-3, -12, -7]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [3, -12, -7]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [-3, -12, 5]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [3, -12, 5]
+		}
+	]
+}

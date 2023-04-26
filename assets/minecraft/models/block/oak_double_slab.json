@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:blocka/oak_double_slab_top",
+    "side": "minecraft:blocka/oak_double_slab_side"
+  }
+}

@@ -1,0 +1,49 @@
+{
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, 1, 0],
+			"boxes": [
+				{"coordinates": [-3, -2, -3, 6, 6, 6], "textureOffset": [50, 0]},
+				{"coordinates": [-0.5, 4, -0.5, 1, 1, 1], "textureOffset": [50, 0]},
+				{"coordinates": [-0.5, -3, -0.5, 1, 1, 1], "textureOffset": [50, 0]},
+				{"coordinates": [3, 0.5, -0.5, 1, 1, 1], "textureOffset": [50, 0]},
+				{"coordinates": [-4, 0.5, -0.5, 1, 1, 1], "textureOffset": [50, 0]},
+				{"coordinates": [-0.5, 0.5, 3, 1, 1, 1], "textureOffset": [50, 0]}
+			]
+		},
+		{
+			"part": "tail",
+			"id": "tail",
+			"invertAxis": "xy",
+			"translate": [0, -1, -1.5]
+		},
+		{
+			"part": "fin_right",
+			"id": "fin_right",
+			"invertAxis": "xy",
+			"translate": [-1.5, -1, 1.5]
+		},
+		{
+			"part": "fin_left",
+			"id": "fin_left",
+			"invertAxis": "xy",
+			"translate": [1.5, -1, 1.5]
+		},
+		{
+			"part": "eye_right",
+			"id": "eye_right",
+			"invertAxis": "xy",
+			"translate": [0, -3, 0]
+		},
+		{
+			"part": "eye_left",
+			"id": "eye_left",
+			"invertAxis": "xy",
+			"translate": [0, -3, 0]
+		}
+	]
+}

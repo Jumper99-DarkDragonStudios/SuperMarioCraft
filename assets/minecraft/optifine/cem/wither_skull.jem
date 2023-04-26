@@ -1,0 +1,66 @@
+{
+	"texture": "textures/entity/creeper/creeper.png",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-4, 1, -4, 8, 8, 8], "textureOffset": [0, 0]},
+				{"coordinates": [-1, 8.5, -1, 2, 1, 2], "textureOffset": [12, 24]},
+				{"coordinates": [-0.5, 9, -0.5, 1, 2, 1], "textureOffset": [4, 30]},
+				{"coordinates": [-0.5, 8, -0.5, 1, 2, 1], "textureOffset": [4, 30]}
+			],
+			"submodels": [
+				{
+					"id": "rotor",
+					"invertAxis": "xy",
+					"translate": [0, 5, 4],
+					"boxes": [
+						{"coordinates": [-0.5, -1, 0, 1, 2, 1], "textureOffset": [16, 16]},
+						{"coordinates": [-0.5, -3, 1, 1, 6, 2], "textureOffset": [10, 16]}
+					]
+				},
+				{
+					"id": "leg_l",
+					"invertAxis": "xy",
+					"translate": [-2, 1, 0],
+					"boxes": [
+						{"coordinates": [-1, -1, -2, 2, 1, 3], "textureOffset": [0, 20]}
+					]
+				},
+				{
+					"id": "leg_r",
+					"invertAxis": "xy",
+					"translate": [2, 1, 0],
+					"boxes": [
+						{"coordinates": [-1, -1, -2, 2, 1, 3], "textureOffset": [0, 16]}
+					]
+				},
+				{
+					"id": "arm_l",
+					"invertAxis": "xy",
+					"translate": [-4, 6, 0],
+					"boxes": [
+						{"coordinates": [-1, -3, -1, 1, 4, 2], "textureOffset": [6, 24]}
+					]
+				},
+				{
+					"id": "arm_r",
+					"invertAxis": "xy",
+					"translate": [4, 6, 0],
+					"boxes": [
+						{"coordinates": [0, -3, -1, 1, 4, 2], "textureOffset": [0, 24]}
+					]
+				}
+			]
+		}
+	],
+			"animations": [
+				{
+					"this:rotor.rz": "0.25*time"
+				}
+			]
+}

@@ -1,0 +1,28 @@
+{
+	"texture": "textures/entity/cat/cat.png",
+	"textureSize": [128, 128],
+	"models": [
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"submodels": [
+				{
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"boxes": [
+						{"coordinates": [-6, 7, -6, 12, 12, 12], "textureOffset": [0, 0]}
+					]
+				}
+			]
+		}
+	],
+			"animations": [
+				{
+					"this:head1.rx": "head.rx",
+					"this:head1.ry": "head.ry",
+					"this:head1.rz": "head.rz"
+				}
+			]
+}
